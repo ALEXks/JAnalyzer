@@ -99,7 +99,7 @@ public class Main extends Application {
         catch(Exception ex) {
             System.out.println(ex.getMessage());
             // comment for use without Visualizer
-            System.exit(-1);
+            //System.exit(-1);
         }
         launch(args);
     }
