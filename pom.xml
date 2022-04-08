@@ -20,7 +20,7 @@
         </plugins>
     </build>
     <dependencies>
-        <!--  Gson: Java to json conversion -->
+        <!--  Gson: Java to analyzer.json conversion -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

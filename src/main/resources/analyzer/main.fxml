@@ -27,7 +27,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<TabPane fx:id="tabPane" prefHeight="559.0" prefWidth="694.0" stylesheets="@analyzer/bootstrap3.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analyzer.Controller">
+<TabPane fx:id="tabPane" prefHeight="559.0" prefWidth="694.0" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analyzer.Controller">
 <tabs>
     <Tab fx:id="loadStatsTab" closable="false" text="Загрузка">
         <AnchorPane>
@@ -58,7 +58,7 @@
                                        <content>
                                           <AnchorPane fx:id="statChartAnchorPane" minHeight="-Infinity" minWidth="-Infinity">
                                              <children>
-                                                    <StackedBarChart alternativeRowFillVisible="false" animated="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@analyzer/series.css" title="Потерянное время" verticalGridLinesVisible="false" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                    <StackedBarChart alternativeRowFillVisible="false" animated="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@series.css" title="Потерянное время" verticalGridLinesVisible="false" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                         <xAxis>
                                                             <CategoryAxis label="Процессоры" side="BOTTOM" />
                                                         </xAxis>
